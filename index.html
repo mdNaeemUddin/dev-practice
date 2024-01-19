@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- fav-icon -->
+    <link rel="shortcut icon" href="images/fav-icon.jpeg" type="image/x-icon">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!-- css files -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <script src="tailwind.config.js"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .roboto {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="mb-10 p-4 ">
+        <!-- nav section -->
+        <nav class="flex justify-between items-center lg:pl-36 lg:pr-36 lg:pt-10 sm:p-12">
+            <div class="w-2/4">
+                <img class="lg:w-18 lg:h-12" src="icons/logo.png" alt="logo">
+            </div>
+
+            <ul class="hidden lg:flex space-x-6">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About US</a></li>
+                <li><a href="#">Contact US</a></li>
+
+            </ul>
+            <a class="lg:hidden sm:flex">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                </svg>
+            </a>
+
+        </nav>
+
+        <!-- banner section -->
+
+        <section class="lg:flex items-center lg:pl-36 lg:pr-44 pt-12 sm:p-12">
+            <div class="lg:w-3/4">
+                <h1 class="text-6xl font-bold uppercase pb-2 ">
+                    <span class="text-amber-500 font-extrabold">be the penguins</span> <br> of winter
+                </h1>
+                <p class="pb-7 pt-8">
+                    Be the Penguins of Winter" serves as an inspiring metaphor encouraging resilience, unity, and
+                    adaptability in the face of challenges. Penguins are renowned for their ability to thrive in the
+                    harshest winter conditions, working together to navigate icy waters and endure freezing
+                    temperatures. Similarly, in our own endeavors, we can embrace the spirit of the penguins by
+                    fostering collaboration, supporting one another, and adapting to changing circumstances.
+
+                    Being the Penguins of Winter implies standing strong amid adversity, maintaining a sense of
+                    community, and persevering through tough times. These resilient creatures symbolize teamwork,
+                    courage, and the unwavering determination to overcome obstacles. By embodying the qualities of the
+                    Penguins of Winter, we can face challenges with a collective spirit, finding strength in unity and
+                    emerging stronger on the other side.
+                </p>
+                <button class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] pt-3 pb-3 pl-7 pr-7">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" strokeWidth={1.5}
+                        stroke="currentColor" class="w-6 h-6 inline pr-2">
+                        <path strokeLinecap="round" strokeLinejoin="round"
+                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>BUY NOW
+                </button>
+            </div>
+            <div>
+                <img class="lg:w-full lg:h-full" src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="lg:pl-36 lg:pr-36 sm:p-12">
+            <h1 class="bebas text-5xl font-extrabold mt-24 mb-8 mx-8">Woman Jacket</h1>
+            <div class="grid sm:grid-cols- lg:grid-cols-3 justify-between gap-3">
+                <div class="bg-orange-50 border-0 rounded-xl drop-shadow-xl p-10">
+                    <div class="p-5 bg-slate-300 rounded-md">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-extrabold pb-3 pt-4">USA Jacket</h4>
+                    <p class="pb-8 text-justify">
+
+                        The woman's jacket is a versatile wardrobe essential that seamlessly blends style and
+                        functionality. Crafted with precision, these jackets cater to various fashion tastes and weather
+                        conditions. From sleek leather jackets exuding urban chic to cozy puffer jackets providing
+                        warmth in winter, the options are diverse. With attention to detail in design, women's jackets
+                        come in an array of cuts, colors, and materials, allowing for endless styling possibilities.
+                    </p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="roboto text-orange-600 text-3xl font-extrabold">$9000</h2>
+                        <button class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] pt-3 pb-3 pl-7 pr-7">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" strokeWidth={1.5}
+                                stroke="currentColor" class="w-6 h-6 inline pr-2">
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>BUY NOW
+                        </button>
+                    </div>
+            <h1 class="bebas text-5xl font-extrabold mt-24 mb-8 px-8">Man Jacket</h1>
+            <div class="grid sm:grid-cols-1 lg:grid-cols-3 justify-between gap-3">
+                <div class="bg-orange-50 border-0 rounded-xl drop-shadow-xl p-10">
+                    <div class="p-5 bg-slate-300 rounded-md">
+                        <img src="images/jacket-4.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-extrabold pb-3 pt-4">Japanese Jacket</h4>
+                    <p class="pb-8 text-justify">
+
+                        The women's jacket is a versatile wardrobe essential that seamlessly blends style and
+                        functionality. Crafted with precision, these jackets cater to various fashion tastes and weather
+                        conditions. From sleek leather jackets exuding urban chic to cozy puffer jackets providing
+                        warmth in winter, the options are diverse. With attention to detail in design, women's jackets
+                        come in an array of cuts, colors, and materials, allowing for endless styling possibilities.
+                    </p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="roboto text-orange-600 text-3xl font-extrabold">$8000</h2>
+                        <button class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] pt-3 pb-3 pl-7 pr-7">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" strokeWidth={1.5}
+                                stroke="currentColor" class="w-6 h-6 inline pr-2">
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>BUY NOW
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-orange-50 border-0 rounded-xl drop-shadow-xl p-10">
+                    <div class="p-5 bg-slate-300 rounded-md">
+                        <img src="images/jacket-5.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-extrabold pb-3 pt-4">Korean Jacket</h4>
+                    <p class="pb-8 text-justify">
+
+                        The women's jacket is a versatile wardrobe essential that seamlessly blends style and
+                        functionality. Crafted with precision, these jackets cater to various fashion tastes and weather
+                        conditions. From sleek leather jackets exuding urban chic to cozy puffer jackets providing
+                        warmth in winter, the options are diverse. With attention to detail in design, women's jackets
+                        come in an array of cuts, colors, and materials, allowing for endless styling possibilities.
+                    </p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="roboto text-orange-600 text-3xl font-extrabold">$5000</h2>
+                        <button class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] pt-3 pb-3 pl-7 pr-7">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" strokeWidth={1.5}
+                                stroke="currentColor" class="w-6 h-6 inline pr-2">
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>BUY NOW
+                        </button>
+                    </div>
+                </div>
+                <div class="bg-orange-50 border-0 rounded-xl drop-shadow-xl p-10">
+                    <div class="p-5 bg-slate-300 rounded-md">
+                        <img src="images/jacket-6.png" alt="">
+                    </div>
+                    <h4 class="text-2xl font-extrabold pb-3 pt-4">Turkey Jacket</h4>
+                    <p class="pb-8 text-justify">
+
+                        The women's jacket is a versatile wardrobe essential that seamlessly blends style and
+                        functionality. Crafted with precision, these jackets cater to various fashion tastes and weather
+                        conditions. From sleek leather jackets exuding urban chic to cozy puffer jackets providing
+                        warmth in winter, the options are diverse. With attention to detail in design, women's jackets
+                        come in an array of cuts, colors, and materials, allowing for endless styling possibilities.
+                    </p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="roboto text-orange-600 text-3xl font-extrabold">$3000</h2>
+                        <button class="text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019] pt-3 pb-3 pl-7 pr-7">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" strokeWidth={1.5}
+                                stroke="currentColor" class="w-6 h-6 inline pr-2">
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                            </svg>BUY NOW
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="flex lg:flex-row flex-col-reverse justify-between items-center lg:p-36 lg:gap-8 p-8 gap-16">
+            <div class="flex-col space-y-4 mb-8">
+                <div class="flex items-center gap-8 p-6 drop-shadow-2xl bg-yellow-100">
+                    <div class="w-20 h-18">
+                        <img src="icons/house.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold">Contact Our Seller</h3>
+                        Fint the Perfect Fit</h3>
+                        <p>
+                            Everybody is different, which is why we
+                            offer styles for every body.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-8 p-6 drop-shadow-2xl bg-yellow-100">
+                    <div class="w-20 h-18">
+                        <img src="icons/box.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold">Contact Our Seller</h3>
+                        Free Exchange</h3>
+                        <p>
+                            One of the many reasons you can shop
+                            with peace of mind.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex items-center gap-8 p-6 drop-shadow-2xl bg-yellow-100">
+                    <div class="w-20 h-18">
+                        <img src="icons/question.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-bold">Contact Our Seller</h3>
+                        <p class="text-justify">
+                            They are here to help you. That's quite
+                            literally what we pay them for.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-3/4">
+                <img  src="images/shopping.png" alt="">
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
